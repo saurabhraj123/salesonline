@@ -1,0 +1,39 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.7rem 2rem;
+    align-items: center;
+    /* background-color: #FFFFFF; */
+}
+
+.nav-center {
+    font-size: 1.7rem;
+}
+
+.lang {
+    font-size: 1.05rem;
+    margin-right: 10px;
+}
+
+.nav-left input {
+    padding: 0.5rem;
+    width: 70%;
+    border: 1px solid rgb(226, 220, 220);
+}
+
+input:focus  {
+    outline: none;
+}
+
+.nav-right span {
+    margin-right: 40px;
+}
+
+.nav-right a {
+    text-decoration: none;
+    color: rgb(29, 23, 23);
+}
+
+.nav-center:hover {
+    cursor: pointer;
+}

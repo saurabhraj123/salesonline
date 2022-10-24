@@ -1,0 +1,34 @@
+.hero {
+    display: flex;
+    justify-content: space-around;
+    background-color: aliceblue;
+    height: 91.3vh;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-text h1 {
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+}
+
+.hero-text p {
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+}
+
+.hero-text button {
+    height: 50px;
+    width: 120px;
+    border: none;
+    background-color: aliceblue;
+    border: 2px solid black;
+}
+
+.hero-text button:hover {
+    cursor: pointer;
+}
